@@ -1,0 +1,185 @@
+@import url(./mobile.css);
+@import url(./tablet.css);
+body{
+    background-color: #232732;
+}
+.hero img{
+    width: 25rem;
+}
+.menu{
+    display: none;
+}
+header .hero-links .nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+}
+header .hero-links .nav-links a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid #3a3f4b;
+    border-radius: 20px;
+    padding: 7px 20px;
+    box-shadow: 0px 0px 15px #464b57;
+}
+header .hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+header .hero .btns{
+    display: flex;
+    gap: 3rem; 
+}
+header .hero .btns .b1{
+    background-color: #232732;
+    color: white;
+}
+header .hero .btns .b2{
+    background-color: #232732;
+    color: white;
+}
+header .about-me{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+header .about-me img{
+    width: 25rem;
+}
+header .about-me .text.about-me{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+main .img2 img{
+    width: 35rem;
+}
+main .nav2 .nav-link2{
+    display:flex;
+    gap: 10rem;
+}
+main .nav2 .nav-link2 a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #5d667d;
+    border-radius: 20px;
+    background:#232732;
+    padding: 7px 20px;
+}
+main .nav2 .nav-link2 a.python{
+    background: linear-gradient(135deg, #8a00ff, #c400ff);
+}
+main .projects{
+    border-bottom: 4px solid #7733FF;
+    position: relative;
+    display: inline-block;
+    width: 50rem;
+    color: white;
+}
+main .skills{
+    border-bottom: 4px solid #7733FF;
+    position: relative;
+    display: inline-block;
+    width: 50rem;
+    color: white;
+}
+main .skills h2{
+    position: absolute;
+    left: 45rem;
+    bottom: -0.5rem;
+}
+main .main{
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+}
+main .lang .language a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid #5d667d;
+    border-radius: 20px;
+    background:#232732;
+    padding: 7px 20px;
+}
+main .certi{
+    border-bottom: 4px solid #7733FF;
+    position: relative;
+    display: inline-block;
+    width: 50rem;
+    color: white;
+}
+main .experience{
+    border-bottom: 4px solid #7733FF;
+    position: relative;
+    display: inline-block;
+    width: 50rem;
+    color: white;
+}
+main .experience h2{
+    position: absolute;
+    left: 41rem;
+    bottom: -0.5rem;
+}
+main .exp .nav-exp a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid #5d667d;
+    border-radius: 20px;
+    background:#232732;
+    padding: 7px 20px;
+}
+main .exp .nav-exp{
+    display: flex;
+    gap: 10rem;
+}
+main .exp .nav-exp .active{
+    background: #8a00ff;
+}
+main .vertical img{
+    width: 30rem;
+}
+main .contact{
+    border-bottom: 4px solid #7733FF;
+    position: relative;
+    display: inline-block;
+    width: 50rem;
+}
+main .contact h2{
+    color: white;
+}
+main .input{
+    display: flex;
+    align-items: center;
+}
+main .input .input.form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+main .input .input.form input{
+    background: #232732;
+    width: 15rem;
+    height: 2rem;
+}
+main .input .input.form textarea{
+    background: #232732;
+    width: 15rem;
+    height: 4rem;
+}
+main .input .input.form .btn{
+    background: #232732;
+    color: white;
+    padding: 6px 32px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px gray;
+}

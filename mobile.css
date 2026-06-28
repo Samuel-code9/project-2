@@ -1,0 +1,96 @@
+@media only screen and (max-width: 480px) {
+    header .hero-links .nav-links{
+        display: none !important;
+        flex-direction: column !important;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .menu{
+        position: absolute;
+        left: 21rem;
+        border: 1px solid ;
+        background: blueviolet;
+        padding: 7px 7px;
+        border-radius: 30px;
+        display: flex !important;
+    }
+    .hero .texts{
+        width: 20rem;
+    }
+    .hero .texts h2{
+        position: relative;
+        left: 7rem;
+    }
+    .hero img{
+        width: 15rem !important;
+        margin-top: 5rem;
+    }
+    .about-me{
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+        color: white;
+    }
+    .about-me img{
+        width: 25rem;
+    }
+    main .projects{
+    width: 21rem !important; 
+    }
+    main .nav2 .nav-link2{
+    display:flex !important;
+    gap: 1rem !important;
+    width: 100vw;
+    position: absolute;
+    left: 1rem;
+    }
+    main .img2 img{
+        width: 22rem !important;
+    }
+    main .skills{
+    width: 21rem !important;
+    }
+    main .skills h2{
+    position: absolute !important;
+    left: 16.5rem !important;
+    }
+    main .main{
+    gap: 3rem !important;
+    width: 100vw;
+    }
+    main .main .pic{
+        width: 11rem;
+    }
+    main .main img{
+        width: 3rem;
+    }
+    main .certi{
+        width: 21rem !important;
+    }
+    main .certi-img img{
+        width: 22rem;
+    }
+    main .experience{
+    width: 21rem !important;
+    }
+    main .experience h2{
+    position: absolute !important;
+    left: 13.5rem !important;
+    }
+    main .exp .nav-exp{
+    gap: 1rem !important;
+    }
+    main .vertical img{
+        width: 21rem !important;
+    }
+    main .contact{
+        width: 21rem !important;
+    }
+    main .input .input-img img{
+        display: none;
+    }
+    main .input{
+        margin-bottom: 2rem;
+    }
+}

@@ -1,0 +1,8 @@
+@media (min-width :481px) and (max-width: 1024px){
+    body{
+        overflow-x: hidden;
+    }
+    .about-me{
+        flex-direction: column !important;
+    }
+}
