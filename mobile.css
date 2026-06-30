@@ -3,9 +3,6 @@
         display: none !important;
         flex-direction: column !important;
     }
-    body{
-        overflow-x: hidden;
-    }
     .menu{
         position: absolute;
         left: 23rem;
@@ -17,10 +14,13 @@
     }
     .hero .texts{
         width: 20rem;
+        margin-top: 5rem;
     }
     .hero .texts h2{
-        position: relative;
-        left: 7rem;
+        position: absolute;
+        left: 12rem;
+        top: 22rem;
+        font-size: 2rem;
     }
     .hero img{
         width: 15rem !important;
@@ -41,9 +41,6 @@
     main .nav2 .nav-link2{
     display:flex !important;
     gap: 1rem !important;
-    width: 100vw;
-    position: absolute;
-    left: 1rem;
     }
     main .img2 img{
         width: 22rem !important;
@@ -57,7 +54,6 @@
     }
     main .main{
     gap: 3rem !important;
-    width: 100vw;
     }
     main .main .pic{
         width: 11rem;
